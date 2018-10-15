@@ -17,7 +17,7 @@ public class ProductInfo {
 
     /** 商品ID */
     @Id
-    private int productId;
+    private String productId;
 
     /** 商品名 */
     private String productName;
