@@ -3,6 +3,7 @@ package com.immoc.product.entity;
 import lombok.Data;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.sql.Date;
 
@@ -15,6 +16,7 @@ import java.sql.Date;
 public class ProductCategory {
 
     @Id
+    @GeneratedValue
     private int categoryId;
 
     /** 类目名 */
